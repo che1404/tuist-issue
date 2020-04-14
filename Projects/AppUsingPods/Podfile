@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+inhibit_all_warnings!
+platform :ios, '10.0'
+
+target 'AppUsingPods' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Aireloom
+  pod 'ReactiveSwift'
+end
